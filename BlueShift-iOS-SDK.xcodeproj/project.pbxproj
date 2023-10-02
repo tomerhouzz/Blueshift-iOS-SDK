@@ -846,6 +846,7 @@
 		9186B58A271ED94600D425AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -863,6 +864,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.4.1;
+				MERGEABLE_LIBRARY = YES;
+				MERGED_BINARY_TYPE = automatic;
 				MODULEMAP_FILE = "BlueShift-iOS-SDK/ios.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Blueshift.BlueShift-iOS-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -876,8 +879,10 @@
 		9186B58B271ED94600D425AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9YR8UTRCDU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -893,6 +898,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.4.1;
+				MERGEABLE_LIBRARY = YES;
+				MERGED_BINARY_TYPE = automatic;
 				MODULEMAP_FILE = "BlueShift-iOS-SDK/ios.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Blueshift.BlueShift-iOS-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -907,6 +914,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -924,6 +932,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.4.1;
+				MERGEABLE_LIBRARY = YES;
+				MERGED_BINARY_TYPE = automatic;
 				MODULEMAP_FILE = "BlueShift-iOS-Extension-SDK/ios.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Blueshift.BlueShift-iOS-Extension-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -938,8 +948,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9YR8UTRCDU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -955,6 +967,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.4.1;
+				MERGEABLE_LIBRARY = YES;
+				MERGED_BINARY_TYPE = automatic;
 				MODULEMAP_FILE = "BlueShift-iOS-Extension-SDK/ios.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Blueshift.BlueShift-iOS-Extension-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
